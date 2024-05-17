@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>dotnet-GroupAdd.Delivery.Consumer-45043718-17b9-4084-b9ab-60a4ef2c7511</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+		<PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.4" />
+		<PackageReference Include="Confluent.Kafka" Version="2.3.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\GroupApp.Delivery.Domain\GroupApp.Delivery.Domain.csproj" />
+	  <ProjectReference Include="..\GroupApp.Delivery.Infrastructure.Kafka\GroupApp.Delivery.Infrastructure.Kafka.csproj" />
+	</ItemGroup>
+</Project>
