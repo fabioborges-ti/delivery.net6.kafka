@@ -1,5 +1,5 @@
-using GroupAdd.Delivery.Consumer;
-using GroupAdd.Delivery.Consumer.Extensions;
+using GroupApp.Delivery.Consumer;
+using GroupApp.Delivery.Consumer.Extensions;
 using GroupApp.Delivery.Infrastructure.Kafka.Settings;
 
 class Program

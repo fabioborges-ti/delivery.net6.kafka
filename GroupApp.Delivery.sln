@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroupApp.Delivery.Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupApp.Delivery.Infrastructure.Database.Postgres", "src\GroupApp.Delivery.Infrastructure.Database.Postgres\GroupApp.Delivery.Infrastructure.Database.Postgres.csproj", "{45E66648-8B2C-488A-9212-63EB17B81ED8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupAdd.Delivery.Consumer", "src\GroupAdd.Delivery.Consumer\GroupAdd.Delivery.Consumer.csproj", "{CFDE5D91-8009-48B1-9535-2C942E74DE7A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupApp.Delivery.Consumer", "src\GroupApp.Delivery.Consumer\GroupApp.Delivery.Consumer.csproj", "{CFDE5D91-8009-48B1-9535-2C942E74DE7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -4,7 +4,7 @@
 		<TargetFramework>net6.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
-		<UserSecretsId>dotnet-GroupAdd.Delivery.Consumer-45043718-17b9-4084-b9ab-60a4ef2c7511</UserSecretsId>
+		<UserSecretsId>dotnet-GroupApp.Delivery.Consumer-45043718-17b9-4084-b9ab-60a4ef2c7511</UserSecretsId>
 	</PropertyGroup>
 
 	<ItemGroup>

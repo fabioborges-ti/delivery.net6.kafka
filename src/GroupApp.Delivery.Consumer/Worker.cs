@@ -1,14 +1,14 @@
 ﻿#nullable disable
 
 using Confluent.Kafka;
-using GroupAdd.Delivery.Consumer.Services;
+using GroupApp.Delivery.Consumer.Services;
 using GroupApp.Delivery.Domain.Entities;
 using GroupApp.Delivery.Domain.Interfaces.Services;
 using GroupApp.Delivery.Infrastructure.Kafka.Settings;
 using Microsoft.Extensions.Options;
 using System.Text.Json;
 
-namespace GroupAdd.Delivery.Consumer;
+namespace GroupApp.Delivery.Consumer;
 
 public class Worker : IHostedService
 {

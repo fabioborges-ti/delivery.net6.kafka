@@ -1,7 +1,7 @@
 ﻿using GroupApp.Delivery.Domain.Entities;
 using GroupApp.Delivery.Domain.Interfaces.Services;
 
-namespace GroupAdd.Delivery.Consumer.Services;
+namespace GroupApp.Delivery.Consumer.Services;
 
 public class NotifierService : INotifierService
 {

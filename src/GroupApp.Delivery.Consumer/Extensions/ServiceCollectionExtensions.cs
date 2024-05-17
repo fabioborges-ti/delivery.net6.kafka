@@ -1,7 +1,7 @@
-﻿using GroupAdd.Delivery.Consumer.Services;
+﻿using GroupApp.Delivery.Consumer.Services;
 using GroupApp.Delivery.Domain.Interfaces.Services;
 
-namespace GroupAdd.Delivery.Consumer.Extensions;
+namespace GroupApp.Delivery.Consumer.Extensions;
 
 public static class ServiceCollectionExtensions
 {
